@@ -1,6 +1,6 @@
 node {
-    def app
-
+    def app{
+    }
     stage('Clone repository') {
       
 
