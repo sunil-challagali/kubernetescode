@@ -8,10 +8,6 @@ node {
     }
 
     stage('Build image') {
-        sudo apt install gnome-terminal
-        sudo apt-get update
-        sudo apt-get install ./docker-desktop-amd64.deb
-        systemctl --user start docker-desktop
   
        app = docker.build("sunil7756/test")
     }
